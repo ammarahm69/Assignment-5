@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Placed</title>
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Thank You!</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #c1fcff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    .thank-you-container {
+      text-align: center;
+      padding: 20px;
+      background-color: #fff;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      animation: fadeIn 1s ease-in-out;
+    }
+
+    @keyframes fadeIn {
+      0% {
+        opacity: 0;
+        transform: translateY(-20px);
+      }
+      100% {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    .thank-you-text {
+      color: #2ecc71;
+      font-size: 24px;
+      font-weight: bold;
+      margin-bottom: 20px;
+    }
+
+    .confetti {
+      position: relative;
+      height: 200px;
+      overflow: hidden;
+    }
+
+    .confetti:before, .confetti:after {
+      content: "";
+      position: absolute;
+      width: 20px;
+      height: 20px;
+      background: #f39c12;
+      border-radius: 50%;
+      transform: rotate(45deg);
+    }
+
+    .confetti:before {
+      left: 10px;
+      top: -50px;
+      animation: confetti-fall 3s linear infinite;
+    }
+
+    .confetti:after {
+      left: 50px;
+      top: -50px;
+      animation: confetti-fall 3s linear infinite;
+    }
+
+    @keyframes confetti-fall {
+      0% {
+        transform: rotate(45deg) translate(0, 0);
+      }
+      100% {
+        transform: rotate(45deg) translate(0, 200px);
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="thank-you-container">
+    <div class="thank-you-text">Thank You!</div>
+    <div class="confetti">Your order has been placed sucessfully!
+    
+    </div>
+   <img src="XD4x.gif" width="25%">
+   
+  </div>
+</body>
+</html>
+
+</body>
+</html>
